@@ -1,0 +1,5 @@
+from datetime import timedelta
+
+def before_insert(self):
+    if self.issue_date:
+        self.due_date = self.issue_date + timedelta(days=7)
