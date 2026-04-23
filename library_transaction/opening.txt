@@ -1,0 +1,5 @@
+###To run the project
+cd ~/frappe-bench
+bench start
+cd ~/frappe-bench
+bench start
